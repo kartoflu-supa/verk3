@@ -1,0 +1,45 @@
+.current {
+  color: green; }
+
+body {
+  background-color: #ecec5b; }
+
+.grid2p {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2em; }
+
+.navbar {
+  padding: 1em;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.637); }
+
+.navbar a {
+  padding: 1em;
+  display: block;
+  background-color: cornflowerblue; }
+
+@media screen and (min-width: 325px) {
+  .grid2p {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2em; }
+
+  .navbar a {
+    padding: 1em;
+    display: inline;
+    background-color: cornflowerblue; } }
+@media screen and (min-width: 325px) and (min-width: 625px) {
+  .grid2p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em; }
+
+  .grid1to3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr; }
+
+  .navbar a {
+    padding: 1em;
+    display: inline;
+    background-color: cornflowerblue; } }
